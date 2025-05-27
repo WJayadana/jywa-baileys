@@ -24,17 +24,17 @@ Pastikan **Node.js ≥ 18.0++** sudah terpasang,
 Kemudian jalankan perintah berikut di terminal:
 
 ```sh
-npm install @WJayadana/jywa-baileys
+npm install jywa-baileys
 ```
 
 dengan **Yarn**:
 
 ```sh
-yarn add @WJayadana/jywa-baileys
+yarn add jywa-baileys
 ```
 dengan **Bun**:
 ```sh
-bun add @WJayadana/jywa-baileys
+bun add jywa-baileys
 ```
 
 ---
@@ -42,7 +42,7 @@ bun add @WJayadana/jywa-baileys
 ## 🚀 Penggunaan Dasar pairing code
 
 ```javascript
-const { useMultiFileAuthState, makeWASocket } = require('@WJayadana/jywa-baileys');
+const { useMultiFileAuthState, makeWASocket } = require('jywa-baileys');
 const readline = require('readline');
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
